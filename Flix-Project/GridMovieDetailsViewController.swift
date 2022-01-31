@@ -1,22 +1,21 @@
 //
-//  MovieDetailsViewController.swift
+//  GridMovieDetailsViewController.swift
 //  Flix-Project
 //
-//  Created by Lexie Hvostal on 1/24/22.
+//  Created by Lexie Hvostal on 1/30/22.
 //
 
 import UIKit
-import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
-
+class GridMovieDetailsViewController: UIViewController {
+    
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     
     var movie: [String:Any]!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
